@@ -11532,7 +11532,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Phantasm",
 	Callback = function() getgenv().ToggleKeybind = Enum.KeyCode.RightControl
-getgenv().FreeEmotesTab = false -- if you want free emotes turn this to true
+getgenv().FreeEmotesTab = true -- if you want free emotes turn this to true
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/main/main/Phantasm-Loader.lua"))()
       		print("Phantasm loading, wait a secound...")
