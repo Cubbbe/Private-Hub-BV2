@@ -28,7 +28,7 @@ local Section = Tab:AddSection({
 Tab:AddLabel("Thanks for using,discord.gg/3JDrcUe7Xw")
 
 Tab:AddButton({
-	Name = "Infinity Yeild",
+	Name = "Infinite Yeild",
 	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
       		print("Infinity Yeild Loaded")
   	end    
