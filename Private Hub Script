@@ -281,14 +281,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "RoChips Panel",
-	Callback = function() Panel,Rochips_ = game,loadstring,"https://glot.io/snippets","a6c7y0","gvjv"
-ld(g:HttpGet((''..gl..'/'..Rochips_..''..Panel.. '/raw/main.lua'),true))()
-      		print("im loading this script")
-  	end    
-})
-
-Tab:AddButton({
 	Name = "SIX Menu",
 	Callback = function() loadstring(game:HttpGet"https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/SIX-MENU/SIX-HUB-NATURAL-DESASTRE")()
       		print("Альбом 11 октября вышел кстати")
