@@ -126,13 +126,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Hakari Moveset (USE ON SAITAMA)",
-	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/HakariTSB/refs/heads/main/Main"))()
-      		print("TSB Script loading, wait a secound homie")
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Gojo Moveset (USE ON SAITAMA)",
 	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
       		print("TSB Script loading, wait a secound homie")
@@ -140,7 +133,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Toji Moveset",
+	Name = "Hakari and Toji Moveset",
 	Callback = function() loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
       		print("TSB Script loading, wait a secound homie")
   	end    
