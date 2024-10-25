@@ -11,7 +11,7 @@ notifSound.Volume = 0.15
 notifSound.SoundId = "rbxassetid://170765130"
 notifSound.PlayOnRemove = true
 notifSound:Destroy()
-game.StarterGui:SetCore("SendNotification", {Title = "Private Hub V2", Text = "Private Hub V2 Loaded, enjoy", Icon = "rbxassetid://505845268", Duration = 1})
+game.StarterGui:SetCore("SendNotification", {Title = "Private Hub V2", Text = "Private Hub V2 Loaded, enjoy", Icon = "rbxassetid://505845268", Duration = 2, Button1 = "Shut the fuck up"})
 
 print "im love jujutsu kaizen"
 
