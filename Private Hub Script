@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Private Hub V2", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
+local Window = OrionLib:MakeWindow({Name = "Private Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
 
 print "im love jujutsu kaizen"
 
@@ -219,6 +219,7 @@ Tab:AddButton({
 	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))() 
       		print("OMG Hub loading pal")
   	end    
+})
 
 local Tab = Window:MakeTab({
 	Name = "Arsenal",
