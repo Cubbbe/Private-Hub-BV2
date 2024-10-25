@@ -1,15 +1,19 @@
+print("Private Hub V2 Loaded")
+print("made by Cubbe")
+ 
+local notifSound = Instance.new("Sound",workspace)
+notifSound.PlaybackSpeed = 1.5
+notifSound.Volume = 0.15
+notifSound.SoundId = "rbxassetid://170765130"
+notifSound.PlayOnRemove = true
+notifSound:Destroy()
+game.StarterGui:SetCore("SendNotification", {Title = "Private Hub V2", Text = "Private Hub V2 Loaded, enjoy", Icon = "rbxassetid://505845268", Duration = 1})
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Private Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
 
 print "im love jujutsu kaizen"
-
-OrionLib:MakeNotification({
-	Name = "Loaded!",
-	Content = "PrivateHub Loaded homie",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
