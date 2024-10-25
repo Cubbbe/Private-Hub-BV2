@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Private Hub V1.5", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
+local Window = OrionLib:MakeWindow({Name = "Private Hub V2", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
 
 print "im love jujutsu kaizen"
 
