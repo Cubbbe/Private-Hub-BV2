@@ -287,13 +287,3 @@ Tab:AddButton({
       		print("Альбом 11 октября вышел кстати")
   	end    
 })
-
-local Tab = Window:MakeTab({
-	Name = "Halloween Message",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "Halloween Message its -"
-})
