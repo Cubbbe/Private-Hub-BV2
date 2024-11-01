@@ -2,6 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "Private Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
 
+
 local Tab = Window:MakeTab({
 	Name = "Misc",
 	Icon = "rbxassetid://4483345998",
@@ -280,3 +281,12 @@ Tab:AddButton({
       		print("Альбом 11 октября вышел кстати")
   	end    
 })
+
+
+local notifSound = Instance.new("Sound",workspace)
+notifSound.PlaybackSpeed = 1.5
+notifSound.Volume = 0.15
+notifSound.SoundId = "rbxassetid://170765130"
+notifSound.PlayOnRemove = true
+notifSound:Destroy()
+game.StarterGui:SetCore("SendNotification", {Title = "Private Hub", Text = "Private Hub loaded, happy halloween!", Duration = 5, Button1 = "Okay"})
