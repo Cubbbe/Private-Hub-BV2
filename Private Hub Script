@@ -94,7 +94,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Chat Bypasser (Down, dont working now)",
+	Name = "Chat Bypasser (Key - mdma)",
 	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/shadow62x/catbypass/main/upfix"))()
       		print("Chat Bypasser loading, wait a secound bro")
   	end    
