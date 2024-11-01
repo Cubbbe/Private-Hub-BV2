@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Private Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
+local Window = OrionLib:MakeWindow({Name = "Private Hub [🎃]", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
 
-print("Private Hub V2 Loaded")
+print("Big Dick Randy HubV2")
 print("made by Cubbe")
  
 local notifSound = Instance.new("Sound",workspace)
@@ -13,7 +13,7 @@ notifSound.PlayOnRemove = true
 notifSound:Destroy()
 game.StarterGui:SetCore("SendNotification", {Title = "Private Hub V2", Text = "Private Hub V2 Loaded, enjoy", Icon = "rbxassetid://505845268", Duration = 2})
 
-print "im love jujutsu kaisen"
+print "big dick randy come to you muahaha"
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
@@ -37,6 +37,13 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Quirky CMD",
 	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Cubbbe/Private-Hub-V2/refs/heads/main/QuirkyCMD"))()
+      		print("QuirkyCMD Loading, working on some games")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nameless Admin",
+	Callback = function() loadstring(game:HttpGet("https://github.com/FilteringEnabled/NamelessAdmin/blob/main/Source?raw=true"))()
       		print("QuirkyCMD Loading, working on some games")
   	end    
 })
@@ -279,3 +286,15 @@ Tab:AddButton({
       		print("Альбом 11 октября вышел кстати")
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Helloween Message",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Helloween Update Message"
+})
+
+Tab:AddLabel("Big Dick Randy Comes To you 😈")
