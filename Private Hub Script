@@ -291,13 +291,13 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Helloween Message",
+	Name = "Halloween Message",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Helloween Update Message"
+	Name = "Halloween Message its -"
 })
 
 Tab:AddLabel("Big Dick Randy Comes To you 😈")
