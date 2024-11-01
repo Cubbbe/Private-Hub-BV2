@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Private Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
+local Window = OrionLib:MakeWindow({Name = "Private Hub [🎃]", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
 
 
 local Tab = Window:MakeTab({
@@ -19,6 +19,13 @@ Tab:AddButton({
 	Name = "Infinite Yeild",
 	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
       		print("Infinity Yeild Loaded")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Small Fix Hub",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/KISOOUF/Unknown/main/Small-Fix-Hub"))()
+      		print("Small Fix Hub loaded")
   	end    
 })
 
