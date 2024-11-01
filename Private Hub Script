@@ -20,3 +20,263 @@ Tab:AddButton({
       		print("Infinity Yeild Loaded")
   	end    
 })
+
+Tab:AddButton({
+	Name = "Quirky CMD",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Cubbbe/Private-Hub-V2/refs/heads/main/QuirkyCMD"))()
+      		print("QuirkyCMD Loading, working on some games")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nameless Admin",
+	Callback = function() loadstring(game:HttpGet("https://github.com/FilteringEnabled/NamelessAdmin/blob/main/Source?raw=true"))()
+      		print("QuirkyCMD Loading, working on some games")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Walk on Walls",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/WalkOnWalls", true))()
+      		print("Walk on Walls loading")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remote Spy",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/superdude914/scripts/refs/heads/master/remotespy.lua"))()
+      		print("Remote Spy Loaded, This script need Hook function")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Teleport Tool",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Cubbbe/Private-Hub-V2/refs/heads/main/Teleport%20Tool"))()
+      		print("Альбом 11 октября вышел кстати")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Universal Crosshair",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Cubbbe/Private-Hub-V2/refs/heads/main/Universal%20Crosshair", true))()
+      		print("wait")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fly GUI (By XNEO)",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+      		print("Fly GUI Loaded")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BackFlip Script",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Cubbbe/Private-Hub-V2/refs/heads/main/BackFlip%20script%20(by%20Zeezy)"))()
+      		print("ok")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Universal Aim Bot",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ttwizz/Open-Aimbot/master/source.lua"))()
+      		print("Aim bot loading, wait a secound...")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Chat Bypasser (Down, dont working now)",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/shadow62x/catbypass/main/upfix"))()
+      		print("Chat Bypasser loading, wait a secound bro")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dark DEX",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Cubbbe/Private-Hub-V2/refs/heads/main/DarkDEX"))()
+      		print("Dex loading")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "TSB",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "TSB"
+})
+
+Tab:AddButton({
+	Name = "Phantasm",
+	Callback = function() getgenv().ToggleKeybind = Enum.KeyCode.RightControl
+getgenv().FreeEmotesTab = true -- if you want free emotes turn this to true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/main/main/Phantasm-Loader.lua"))()
+      		print("Phantasm loading, wait a secound...")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "TSBloxScripts",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/sandwichk/RobloxScripts/main/Scripts/BadWare/Hub/Load.lua", true))()
+      		print("TSB Script loading, wait a secound homie")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Gojo Moveset (USE ON SAITAMA)",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+      		print("TSB Script loading, wait a secound homie")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hakari and Toji Moveset",
+	Callback = function() loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+      		print("TSB Script loading, wait a secound homie")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Da Hood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Da Hood"
+})
+
+Tab:AddButton({
+	Name = "Azure Modded",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+      		print("Azure Modded Loading")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Vantra",
+	Callback = function() loadstring(game:HttpGet("https://vantra.cc/api/script/get?placeid=MainLoader"))()
+      		print("Vantra Loading")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "MM2"
+})
+
+Tab:AddButton({
+	Name = "Vynixu MM2-(MB Patched)",
+	Callback = function() loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+      		print("This script CAN be patched")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MM2 (Mobile-Support)",
+	Callback = function() loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))() 
+      		print("Random mm2 script loading")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bolts Hub V5",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5"))()
+      		print("Bolts Hub script loading")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MrPectable",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectable/main/MrPectable.lua"))()
+      		print("Bolts Hub script loading")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Prison Life",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Prison Life"
+})
+
+Tab:AddButton({
+	Name = "Prizz Life Admin",
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+      		print("Prizz Life Admin loading pal")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "OMG Hub",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))() 
+      		print("OMG Hub loading pal")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Arsenal"
+})
+
+Tab:AddButton({
+	Name = "Tbao Hub",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal")) 
+      		print("ok")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Mobile+PC Script",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/GuizzyisbackV2LOL/Arsenallua/main/Arsenal.lua"))() 
+      		print("jujutsu kaizen")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BerTox",
+	Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/8ysy7ENG",true))() 
+      		print("script loading")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Natural Disaster Survival",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Natural Disaster"
+})
+
+Tab:AddButton({
+	Name = "EVA Script",
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/K9ntra/EVA/main/abc.lua'))()
+      		print("why you reading this?")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SIX Menu",
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/Six-Hub/NaturalDisaster'))()
+      		print("Альбом 11 октября вышел кстати")
+  	end    
+})
