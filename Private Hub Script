@@ -297,7 +297,3 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Halloween Message its -"
 })
-
-Tab:AddLabel("Big Dick Randy Comes To you 😈")
-
-Tab:AddLabel("https://www.youtube.com/watch?v=i05IlyyS7l4")
