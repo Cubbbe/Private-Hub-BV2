@@ -2,7 +2,10 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "Private Hub [🎃]", HidePremium = false, SaveConfig = true, ConfigFolder = "PrivateHub"})
 
-print("Big Dick Randy HubV2")
+ColorPicker:Set(Color3.fromRGB(255,140,0))
+
+print("Big Dick Randy Comes to you bitch 🎃")
+ColorPicker:Set(Color3.fromRGB(255,140,0))
 print("made by Cubbe")
  
 local notifSound = Instance.new("Sound",workspace)
