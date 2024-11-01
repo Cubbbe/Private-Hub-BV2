@@ -10,7 +10,6 @@ notifSound.PlayOnRemove = true
 notifSound:Destroy()
 game.StarterGui:SetCore("SendNotification", {Title = "Private Hub V2", Text = "Private Hub V2 Loaded, enjoy", Icon = "rbxassetid://505845268", Duration = 2})
 
-print "big dick randy come to you muahaha"
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
