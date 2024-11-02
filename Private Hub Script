@@ -23,6 +23,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Energize V1 (NOT MINE SCRIPT!)",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH12/FEEGGEG/refs/heads/main/%5BFE%5D%20Energize%20Animation%20Gui.txt"))()
+      		print("lol")
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Small Fix Hub",
 	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/KISOOUF/Unknown/main/Small-Fix-Hub"))()
       		print("Small Fix Hub loaded")
