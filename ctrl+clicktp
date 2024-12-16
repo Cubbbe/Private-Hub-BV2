@@ -21,3 +21,10 @@ UIS.InputBegan:Connect(function(input)
        Teleport(Mouse.Hit.p)
    end
 end)
+
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+Title = "ZenoraZ";
+Text = "CTRL+Click TP Loaded!"; 
+Duration = 3;
+})
